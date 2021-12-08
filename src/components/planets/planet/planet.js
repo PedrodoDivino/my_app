@@ -14,4 +14,4 @@ const Planet = (props) => {
         </div>
     )
 }
-export default Planet;git 
+export default Planet;
