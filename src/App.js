@@ -1,18 +1,10 @@
-import React from 'react';
-import HelloWord from './hello.js';
-import Lorem from './components/lorem';
-
-
-
-
+import React, { fragment } from 'react';
+import Planets from './components/planets/planets'
 function App() {
   return (
-    <div>
-<HelloWord/>
-<Lorem/>
-    </div>
-
-    
+    <fragment>
+      <Planets/>   
+    </fragment>
   );
 }
 export default App;
