@@ -5,10 +5,10 @@ import DescriptionWhitLink from '../../shared/DescriptionWhitLink/DescriptionWit
 
 const Planet = (props) => {
     return (
-        <div>
+        <div onClick={props.ClickPlanet}>
             <h4>{props.name}</h4>
             < DescriptionWhitLink description={props.description} link={props.link} />
-            <GrayImg img_url={props.img_url} />
+            <GrayImg img_url={props.img_url}/>
 
 
         </div>
